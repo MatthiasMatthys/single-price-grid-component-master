@@ -1,0 +1,89 @@
+body {
+    background-color: #D6E1F0;
+}
+
+.container {
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "div1 div1 ."
+        "div2 div3 .";
+}
+
+.div1 {
+    grid-area: div1;
+    background-color: white;
+    padding: 0px 0px 25px 50px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.div2 {
+    grid-area: div2;
+    background-color: hsl(179, 62%, 43%);
+    padding: 25px 0px 50px 50px;
+    border-radius: 0px 0px 0px 12px;
+}
+
+.div3 {
+    grid-area: div3;
+    background-color: #4ABEBD;
+    padding: 25px 0px 50px 50px;
+    border-radius: 0px 0px 12px 0px;
+}
+
+
+h1,
+h2,
+h3,
+p,
+li,
+button {
+    font-family: "Karla", sans-serif;
+}
+
+h1 {
+    color: #428E8A;
+}
+
+h2 {
+    color: #BFE031;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: #E1E2E4;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+li {
+    color: #E1E2E4;
+    font-weight: 400;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+button {
+    width: 85%;
+    background-color: #BFE031;
+    border: 0px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+button:hover{
+    cursor: pointer;
+}
