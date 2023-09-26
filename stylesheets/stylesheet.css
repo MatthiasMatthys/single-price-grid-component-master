@@ -4,6 +4,7 @@ body {
 
 .container {
     margin: auto;
+    margin-top: 10%;
     width: 35%;
     padding: 10px;
     display: grid;
@@ -86,4 +87,32 @@ button {
 
 button:hover{
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        display: block;
+        margin: auto;
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .div1{
+        padding-top: 25px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+
+    .div2 {
+        border-radius: 0px 0px 0px 0px;
+    }
+    .div3 {
+        border-radius: 0px 0px 12px 12px;
+    }
+
 }
